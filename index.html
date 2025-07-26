@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/fb19b64f5e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           <img src="logo.jpeg" class="image">
+           <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+           <i class="fasnew fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+           <i class="fasnew fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UL/UX DESIGNER</p>
+             <h1>Hi, This is<br class="mobile-break"> <span> Harshitha Achana</span> <br/> from India.</h1>
+        </div>
+    </div>
+</div>
+<!--------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Creative and detail-oriented Web Designer with hands-on experience in designing and developing 
+                visually engaging, user-friendly websites. Proficient in HTML5, CSS3, JavaScript, and responsive 
+                design principles. Adept at understanding client needs and translating them into effective digital 
+                interfaces.  </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" >Experiance</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br/>designing web interfaces</li>
+                        <li><span>Web development</span><br/>creating responsive websites using HTML, CSS, JS, Bootstrap</li>
+                        <li><span>Python Programming</span><br/>basic scripting and problem-solving with Python</li>
+                        <li><span>Frontend Tools</span><br/>experience with GitHub, VS Code, Chrome DevTools</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Learning Projects</span><br/>built multiple frontend projects to practice skills</li>
+                        <li><span>Hackathon Participation</span><br/>contributed UI styling and research in team-based events</li>
+                        <li><span>Continuous Learning</span><br/>currently exploring JavaScript frameworks and backend with Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Primary Education</span><br/>KPR GOWTHAM SCHOOL - 10 CGPA</li>
+                        <li><span>Secondary Education</span><br/>VIDHYA BHARATHI COLLEGE - 9.3 CGPA</li>
+                        <li><span>Higher Education</span><br/>BHARATH UNIVERSITY - Currently pursuing </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Developing responsive websites using HTML, CSS, Bootstrap, and JavaScript.Focused on clean layouts, user-friendly structure, and mobile-first design.</p>
+                <a href="https://github.com/HarshithaAchana" target="_blank">Learn more</a>
+            </div>
+            <div>
+               <i class="fas fa-crop-alt"></i>
+                <h2>App Design</h2>
+                <p>Creating simple app UI designs and wireframes using tools like Figma or pen-paper mockups. Able to modify and improve UI based on usability and aesthetics.</p>
+                <a href="https://github.com/HarshithaAchana" target="_blank">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Dashboard Design</h2>
+                <p>Customizing and building admin dashboards with a focus on layout, readability, and interaction.Experience modifying UI components using HTML, CSS, and Bootstrap for a clean data display.</p>
+                <a href="https://github.com/HarshithaAchana" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!---------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.jpg" alt="">
+                <div class="layer">
+                    <h3>Cat project</h3>
+                    <p>The cat projectc basically shows the difference
+                         when the button <br/> is clicked and changes 
+                         after </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.jpg" alt="">
+                <div class="layer">
+                    <h3>Guess game</h3>
+                    <p>The cat projectc basically shows the difference
+                         when the button <br/> is clicked and changes 
+                         after </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.jpg" alt="">
+                <div class="layer">
+                    <h3>Rose day project</h3>
+                    <p>The cat projectc basically shows the difference
+                         when the button <br/> is clicked and changes 
+                         after </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a class="btn" href="">See more</a>
+    </div>
+</div>
+<!------------------Contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>Harshiachana@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 8305317400</p>
+                <div class="social-icons">
+                    <a target="_blank" href="https://www.instagram.com/harshi_0927/"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/harshithaachana/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/HarshithaAchana"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Resume harshitha.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet" >
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+               </form> 
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Harshiachana. Refered from GreatStack <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    function opentab(tabname){
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyo29P6JUxul-hQXiuDv1jQMvbnmaUvUdkvtldUmTcqaH4WRKjxU2K4qKRBqIxmRXgLpA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
